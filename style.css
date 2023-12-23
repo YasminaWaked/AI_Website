@@ -78,15 +78,12 @@ body.active {
 }
 
 #ai-text {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0, 0.5);
+    position: absolute;
     align-self: center;
     font-size: 20px;
-    padding-top: 55%;
-    padding-left: 28%;
-}
-
-#ai-text.active {
-    color: rgb(209, 206, 206);
+    margin-top: 68%;
+    margin-left: 28%;
 }
 
 #info {
