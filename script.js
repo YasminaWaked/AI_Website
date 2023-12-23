@@ -2,8 +2,8 @@ const body = document.querySelector('body');
 const toggle = document.getElementById('toggle');
 const info_div = document.getElementById('info');
 const ai_text = document.getElementById('ai-text');
-const takeover_p = document.getElementById('takeover-p')
-const takeover= document.getElementById('takeover')
+const takeover_p = document.getElementById('takeover-p');
+const takeover= document.getElementById('takeover');
 
 let title_h = document.getElementById('title');
 let household_p = document.getElementById('household-p');
@@ -19,8 +19,8 @@ let research_p = document.getElementById('research-p');
 let collaboration_p = document.getElementById('collaboration-p');
 let norms_p = document.getElementById('norms-p');
 
-let ai_text_dis = 'AI is disabled';
-let ai_text_en = 'AI is enabled';
+let ai_text_dis = 'disabled';
+let ai_text_en = 'enabled';
 
 let orig_title = 'Life Without AI';
 let title = 'Life With AI';
